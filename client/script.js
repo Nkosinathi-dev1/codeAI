@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
   //Fetch data from the server
   //bot response
-  const response = await fetch("https://codeai-wz02.onrender.com/", {
+  const response = await fetch("http://localhost:5000", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
